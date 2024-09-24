@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Curiosidade sobre Tecnologia.</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/fitwavelogo5.png" alt="logo">
+        <br><br><h1>Produtos Fornecidos</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Página inicial</a>
+        <a href="produtos.html">Produtos fornecidos</a>
+        <a href="contato.html">Contato</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+
+    
+
+    <main>
+        <section class="quiz-section">
+            <h1>Quiz sobre a acadêmia.</h1>
+    
+            <form id="quiz-form">
+                <section class="question">
+                    <h3>1. Qual melhor aparelho para desenvolver as pernas?</h3>
+                    <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playsound()">A) Agachamento. </label><br>
+                    <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playsound()">B) Mesa flexora.</label><br>
+                    <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playsound()">C) Stiff.</label><br>
+                    <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playsound()">D) Bulgaro.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>2. O que fazer para emagrecer corretamente?</h3>
+                    <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playsound()">A) Dieta, musculaçao e cardio continuo.</label><br>
+                    <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playsound()">B) Somente cardio.</label><br>
+                    <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playsound()">C) Somente musculação.</label><br>
+                    <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playsound()">D) Somente dieta.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>3. Qual é a principal função do aquecimento antes do treino?</h3>
+                    <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playsound()">A) Prevenir lesões.</label><br>
+                    <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playsound()">B) Aumentar o tempo de treino.</label><br>
+                    <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playsound()">C) Queimar mais calorias.</label><br>
+                    <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playsound()">D) Melhorar a flexibilidade.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>4. Qual dos seguintes exercícios é considerado um exercício aeróbico?</h3>
+                    <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playsound()">A) Corrida.</label><br>
+                    <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playsound()">B) Flexão.</label><br>
+                    <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playsound()">C) Levantamento de peso.</label><br>
+                    <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playsound()">D) Agachamento.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>5. Qual é a recomendação geral para a frequência de treinos em uma semana?</h3>
+                    <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playsound()">A) Treinar de 3 a 5 vezes por semana.</label><br>
+                    <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playsound()">B) Treinar apenas um dia.</label><br>
+                    <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playsound()">C) 15.</label><br>
+                    <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playsound()">D) Treinar apenas nos fins de semana.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>6. O que é a periodização do treino?</h3>
+                    <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playsound()">A) Um plano de dieta.</label><br>
+                    <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playsound()">B) Um programa de treino sem variações.</label><br>
+                    <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playsound()">C) A divisão do treinamento em ciclos.</label><br>
+                    <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playsound()">D) Um tipo de exercício específico.</label>
+                </section><br><br>
+    
+                <section class="question">
+                    <h3>7. Qual é o benefício do treino de força?</h3>
+                    <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playsound()">A) Aumenta a massa muscular.</label><br>
+                    <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playsound()">B) Aumenta a flexibilidade.</label><br>
+                    <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playsound()">C) Melhora a resistência cardiovascular.</label><br>
+                    <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playsound()">D) Reduz a frequência cardíaca.</label>
+                </section><br><br>
+
+                <section class="question"></section>
+                    <h3>8. Qual é a melhor maneira de perder gordura corporal?</h3>
+                    <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playsound()">A) Dieta equilibrada e exercícios regulares.</label><br>
+                    <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playsound()">B) Apenas treinar pesado.</label><br>
+                    <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playsound()">C) Focar apenas em cardio.</label><br>
+                    <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playsound()">D) Fazer jejum prolongado.</label>
+                </section><br><br>
+
+                <section class="question"></section>
+                    <h3>9. Qual é a importância da hidratação durante os treinos?</h3>
+                    <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playsound()">A) Ajuda a manter a temperatura corporal e o desempenho.</label><br>
+                    <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playsound()">B) Apenas para quem faz exercícios ao ar livre.</label><br>
+                    <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playsound()">C) Não é importante.</label><br>
+                    <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playsound()">D) Para ganhar massa muscular.</label>
+                </section><br><br>
+
+                <section class="question"></section>
+                    <h3>10. O que significa "HIIT"?</h3>
+                    <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playsound()">A) High Intensity Interval Training.</label><br>
+                    <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playsound()">B) High Intensity Individual Training.</label><br>
+                    <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playsound()">C) High Impact Interval Training.</label><br>
+                    <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playsound()">D) High Interval Intensity Training.</label>
+                </section><br><br>
+
+                <br><br><button type="button" onclick="SubmitQuiz()">Enviar Resposta</button>
+                <button type="button" id="retry-button" onclick="resetQuiz()" disabled>Responder Novamente</button>
+                <br><br><br>
+            </form>
+    
+            <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+            <audio id="perdeuSom" src="som/perdeu.mp3" preload="auto"></audio>
+            <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+    
+            <section id="result"></section>
+        </section>
+    </main>
+            
+    <footer>
+        Site criado pelos alunos do curso de <a href = "https://jau.sesisp.org.br/">DEV do SESI/SENAI Bariri.</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
